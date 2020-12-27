@@ -1,8 +1,6 @@
 import Validator from '../../validator';
 import PaymentSystem from '../../paymentSystem';
-// import DOM from '../dom';
 
-// const dom = new DOM();
 const validator = new Validator()
 const paymentSystem = new PaymentSystem({}, validator);
 

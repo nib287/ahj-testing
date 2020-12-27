@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --testPathPattern=./src/js/tests/unit",
-    "e2e": "jest --testPathPattern=./src/js/tests/e2e",
+    "e2e": "jest --testPathPattern=./src",
     "coverage": "jest --coverage",
     "start": "webpack-dev-server",
     "build": "webpack --mode production",
