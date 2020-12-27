@@ -1,0 +1,37 @@
+[data-widget="innogrn-form-widget"] {
+   display: flex;
+}
+
+.icons {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0;
+   list-style-type: none;
+}
+
+.icons__pic {
+   margin-right: 2px;
+   width: 80px;
+   height: 50px;
+   border: 1px solid rgb(131, 131, 131);
+   border-radius: 5px;
+}
+
+.icons__grey {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; 
+   opacity: 0.2;
+}
+
+.valid {
+   color: rgb(39, 208, 39);
+}
+
+.invalid {
+   color: rgb(243, 38, 38);
+}
+
